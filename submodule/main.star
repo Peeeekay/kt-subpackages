@@ -1,2 +1,5 @@
+helper = import_module("github.com/Peeeekay/kt-subpackages/submodule/helper/helper.star")
+
 def run(plan):
-    plan.print("running this starlark package!")
+    output = helper.get_cleaned_token("submodule")
+    plan.print(output)
