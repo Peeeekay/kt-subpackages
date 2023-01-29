@@ -1,2 +1,2 @@
 def get_cleaned_token(token):
-    return "Called from " + token + "and returned from helper!"
+    return "Called from " + token + " and returned from helper in submodule!"
