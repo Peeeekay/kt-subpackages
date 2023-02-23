@@ -1,5 +1,5 @@
-helper = import_module("github.com/Peeeekay/kt-subpackages/submodule/helper/helper.star")
+helper = import_module("github.com/kurtosis-tech/examples/simple-subpackage-example/lib/lib.star")
 
 def run(plan):
-    output = helper.get_cleaned_token("submodule_Develop")
+    output = helper.say_hello_world()
     plan.print(output)
