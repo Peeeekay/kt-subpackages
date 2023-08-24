@@ -1,7 +1,7 @@
 def run(
     plan, 
     name,       #type: string
-    number,     #type: int
+    number = 2,     #type: int
 ):
 
     # some comments
