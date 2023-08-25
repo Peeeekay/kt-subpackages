@@ -1,9 +1,8 @@
 def run(
     plan, 
     name,       #type: string
-    number,     #type: int
+    number,     #type: integer
+    object,
 ):
-
-    # some comments
     plan.print(name) 
     plan.print(number)
