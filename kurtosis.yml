@@ -1,1 +1,13 @@
 name: github.com/Peeeekay/kt-subpackages
+
+description: |
+  # PK Test Package
+
+  This is Pk's test kurtosis package
+
+  ### Arguments
+  This package accepts multiple arguments. All of them are awesome.
+  ```
+  awesome_arg1: This is the first awesome argument.
+  awesome_arg2: this is the second awesome argument.
+  ```
